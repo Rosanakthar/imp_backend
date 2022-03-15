@@ -18,7 +18,7 @@ app.use('/auth',loginSignup);
 //     res.send("this is new")
 // })
 
-mongoose.connect(process.env.server)
+mongoose.connect("mongodb+srv://Rosanakthar:9994765825@cluster0.sei7q.mongodb.net/implife?retryWrites=true&w=majority")
 .then(result => {
     console.log("Connect");
 }).catch(err => {
